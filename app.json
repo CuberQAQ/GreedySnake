@@ -1,0 +1,202 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1012603,
+    "appName": "GreedySnake",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.2"
+    },
+    "icon": "icon.png",
+    "vender": "CuberQAQ",
+    "description": "An interesting Game"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "debug": false,
+  "targets": {
+    "gtr3-pro": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gtr3-pro/startPage/index.page",
+            "page/gtr3-pro/set/index.page",
+            "page/gtr3-pro/main/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Hello World",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "platforms": [
+        {
+          "name": "gtr3-pro",
+          "deviceSource": 229
+        },
+        {
+          "name": "gtr3-pro-w",
+          "deviceSource": 230
+        },
+        {
+          "name": "gtr3-pro-l",
+          "deviceSource": 6095106
+        }
+        
+      ],
+      "designWidth": 480
+    },
+    "gtr3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gtr3/startPage/index.page",
+            "page/gtr3/set/index.page",
+            "page/gtr3/main/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Hello World",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "platforms": [
+        {
+          "name": "gtr3",
+          "deviceSource": 226
+        },
+        {
+          "name": "gtr3-w",
+          "deviceSource": 227
+        },
+        {
+          "name": "t-rex2",
+          "deviceSource": 418
+        },
+        {
+          "name": "t-rex2-w",
+          "deviceSource": 419
+        },
+        {
+          "name": "t-rexu",
+          "deviceSource": 6553856
+        },
+        {
+          "name": "t-rexu-w",
+          "deviceSource": 6553857
+        }
+        
+      ],
+      "designWidth": 480
+    },
+    "gts3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gts3/startPage/index.page",
+            "page/gts3/set/index.page",
+            "page/gts3/main/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Hello World",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "platforms": [
+        {
+          "name": "gts3",
+          "deviceSource": 224
+        },
+        {
+          "name": "gts3-w",
+          "deviceSource": 225
+        }
+      ],
+      "designWidth": 480
+    },
+    "gtr4": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gtr4/startPage/index.page",
+            "page/gtr4/set/index.page",
+            "page/gtr4/main/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Hello World",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "platforms": [
+        {
+          "name": "gtr4",
+          "deviceSource": 7930112
+        },
+        {
+          "name": "gtr4-w",
+          "deviceSource": 7930113
+        }
+      ],
+      "designWidth": 480
+    },
+    "gts4": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gts4/startPage/index.page",
+            "page/gts4/set/index.page",
+            "page/gts4/main/index.page"
+          ],
+          "window": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTextStyle": "black",
+            "navigationBarTitleText": "Hello World",
+            "backgroundColor": "#eeeeee",
+            "backgroundTextStyle": "light"
+          }
+        }
+      },
+      "platforms": [
+        {
+          "name": "gts4",
+          "deviceSource": 7995648
+        },
+        {
+          "name": "gts4-w",
+          "deviceSource": 7995649
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "GreedySnake"
+    },
+    "zh-CN": {
+      "appName": "贪吃蛇"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
